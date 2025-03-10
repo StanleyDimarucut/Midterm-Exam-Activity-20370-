@@ -1,7 +1,7 @@
 let task = [];
 
-const taskForm = document.getElementById('taskForm');
-const taskInput = document.getElementById('taskInput');
+const taskForm = document.getElementById('TaskForm'); // Updated to match HTML
+const taskInput = document.getElementById('task'); // Updated to match HTML
 const taskList = document.getElementById('taskList');
 
 function renderTask() {
@@ -15,7 +15,7 @@ function renderTask() {
             <button class="delete-btn" onclick="deleteTask(${index})">Delete</button>           
         `;
         taskList.appendChild(li);
-});
+    });
 }
 
 function addTask(event) {

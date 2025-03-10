@@ -22,13 +22,13 @@ h1 {
     margin-bottom: 20px;
 }
 
-#task-form {
+#TaskForm {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#task-input {
+#task {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
